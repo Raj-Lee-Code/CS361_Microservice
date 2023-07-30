@@ -5,6 +5,24 @@
 Simply run the program in its own instance, and you will receive a server address of "http://127.0.0.1:5856"
 Currently a port number of "5856" is being used, however, this can be changed to a user's preference.
 
+To get the microservice onto a local computer:
+
+```
+git clone https://github.com/Raj-Lee-Code/CS361_Microservice.git
+```
+
+as well as needs the following packages installed: bs4, requests, and flask
+you can install these as follows:
+
+```
+pip install flask
+```
+```
+pip install bs4
+```
+```
+pip install requests
+```
 To call the service from another program, make sure this microservice is running in the background and then use the following 
 line in the get request: http://127.0.0.1:5856/ticker/?ticker="INSERT_TICKER_SYMBOL_HERE" replacing the text "INSERT TICKER SYMBOL HERE" to the desired stock ticker symbol
 
