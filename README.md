@@ -52,4 +52,6 @@ response = requests.get(f"http://127.0.0.1:5856/ticker/?ticker={ticker}")
 data = response.json()
 print(data['Price'])
 ```
+
+# UML
 ![img.png](img.png)
