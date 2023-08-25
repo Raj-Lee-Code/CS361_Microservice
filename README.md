@@ -1,5 +1,5 @@
-# CS361_Microservice
-## Microservice that sends stock price when receiving a ticker symbol.
+# Stock Price Finder!
+## A microservice that sends stock price when receiving a ticker symbol.
 ### This microservice runs locally on a user's computer with Flask and by using a GET method.
 
 Simply run the program in its own instance, and you will receive a server address of "http://127.0.0.1:5856"
